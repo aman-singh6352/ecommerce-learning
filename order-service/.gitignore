@@ -1,0 +1,61 @@
+# System & OS
+Thumbs.db
+.DS_Store
+*.log
+log/
+
+# Compiled outputs
+*.class
+target/
+bin/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Package formats
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.mvn/wrapper/maven-wrapper.jar
+
+# JVM Crash Dumps & Profilers
+hs_err_pid*
+replay_pid*
+*.jfr
+*.jfr.log.txt
+.ideaSnapshots/
+
+# Testcontainers
+.testcontainers.properties
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code & Git ###
+.vscode/
+.git
